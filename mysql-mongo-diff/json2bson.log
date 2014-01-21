@@ -172,3 +172,764 @@
 2014-01-20 23:53:44 [INFO ] main (DiffKernel.java:56) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
 2014-01-20 23:53:44 [INFO ] main (DiffKernel.java:59) - readfile:....
 2014-01-20 23:53:45 [INFO ] main (DiffKernel.java:46) - mongoResult result size:25
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:37) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:38) - class mongo:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:39) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:67) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:70) - readfile:....
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:43) - mysql result size:25
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:67) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:70) - readfile:....
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:46) - mongoResult result size:25
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:53) - found an mismatch
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:54) - mongo item:com.operasolutions.mongo.FundOverviewEntity@1d94ccbc
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:55) - mysql item:com.operasolutions.mysql.FundOverviewEntity@140d59d0
+2014-01-21 11:12:38 [INFO ] main (DiffKernel.java:60) - totally match
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:37) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:38) - class mongo:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:39) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:69) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:72) - readfile:....
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:43) - mysql result size:25
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:69) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:72) - readfile:....
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:46) - mongoResult result size:25
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:53) - found an mismatch
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:54) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 11:13:51 [INFO ] main (DiffKernel.java:55) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 11:16:18 [INFO ] main (DiffKernel.java:37) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:16:18 [INFO ] main (DiffKernel.java:38) - class mongo:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:16:18 [INFO ] main (DiffKernel.java:39) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 11:16:19 [INFO ] main (DiffKernel.java:69) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 11:16:19 [INFO ] main (DiffKernel.java:72) - readfile:....
+2014-01-21 11:16:19 [INFO ] main (DiffKernel.java:43) - mysql result size:25
+2014-01-21 11:16:19 [INFO ] main (DiffKernel.java:69) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 11:16:19 [INFO ] main (DiffKernel.java:72) - readfile:....
+2014-01-21 11:16:19 [INFO ] main (DiffKernel.java:46) - mongoResult result size:25
+2014-01-21 11:16:19 [INFO ] main (DiffKernel.java:53) - found an mismatch
+2014-01-21 11:16:19 [INFO ] main (DiffKernel.java:54) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 11:16:19 [INFO ] main (DiffKernel.java:55) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 11:20:34 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 11:22:16 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 11:24:22 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 11:24:22 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 11:26:34 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:26:34 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:26:34 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 11:26:35 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 11:26:35 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:26:35 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 11:26:35 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 11:26:35 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:26:35 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 11:26:35 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 11:26:35 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 11:26:35 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 11:26:35 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 11:28:56 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 11:28:56 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 11:30:52 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 11:30:52 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:22:48 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:22:48 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:26:45 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:26:45 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:27:19 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:27:19 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:27:19 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:27:19 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:27:19 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:27:20 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:27:20 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:27:20 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:27:20 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:27:20 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:27:20 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:27:20 [INFO ] main (FundOverviewEntity.java:199) - etl1D95HistNotional mismatch
+2014-01-21 12:27:20 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:27:20 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:27:20 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:27:57 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:27:57 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:27:57 [INFO ] main (FundOverviewEntity.java:333) - etl1D95HistNotional mismatch
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:27:57 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:29:16 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:29:16 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:29:16 [INFO ] main (FundOverviewEntity.java:333) - posId:9832  ,other.posId:9832
+2014-01-21 12:29:16 [INFO ] main (FundOverviewEntity.java:334) - posId mismatch
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:29:16 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:30:16 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:30:16 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:30:16 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:30:17 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:30:17 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:30:17 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:30:17 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:30:17 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:30:17 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:30:17 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:30:17 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:30:17 [INFO ] main (FundOverviewEntity.java:362) - etl1D95HistNotional mismatch
+2014-01-21 12:30:17 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:30:17 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:30:17 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:31:12 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:31:12 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:31:12 [INFO ] main (FundOverviewEntity.java:362) - value mismatch
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:31:12 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:31:59 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:31:59 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:31:59 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:31:59 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:31:59 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:32:00 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:32:00 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:32:00 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:32:00 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:32:00 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:32:00 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:32:00 [INFO ] main (FundOverviewEntity.java:362) - value:6.7648752E7  other.value:6.76487546074E7
+2014-01-21 12:32:00 [INFO ] main (FundOverviewEntity.java:363) - value mismatch
+2014-01-21 12:32:00 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:32:00 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:32:00 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:33:11 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:33:11 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:33:11 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:33:11 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:33:11 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:33:12 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:33:12 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:33:12 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:33:12 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:33:12 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:33:12 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:33:12 [INFO ] main (FundOverviewEntity.java:362) - value:6.7648752E7  other.value:6.76487546074E7
+2014-01-21 12:33:12 [INFO ] main (FundOverviewEntity.java:363) - value mismatch
+2014-01-21 12:33:12 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:33:12 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:33:12 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:34:13 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:34:13 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:34:13 [INFO ] main (FundOverviewEntity.java:362) - value:6.7648752E7  other.value:6.76487546074E7 diff:2.6074000000953674
+2014-01-21 12:34:13 [INFO ] main (FundOverviewEntity.java:364) - value mismatch
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:34:13 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:44:01 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:44:01 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:44:01 [INFO ] main (FundOverviewEntity.java:363) - value:6.7648752E7  other.value:6.76487546074E7 diff:2.6074000000953674
+2014-01-21 12:44:01 [INFO ] main (FundOverviewEntity.java:365) - value mismatch
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:44:01 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:44:26 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:44:26 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:44:26 [INFO ] main (FundOverviewEntity.java:363) - value:6.7648752E7  other.value:6.76487546074E7 diff:2.6074000000953674
+2014-01-21 12:44:26 [INFO ] main (FundOverviewEntity.java:365) - value mismatch
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:44:26 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:45:24 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:45:24 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:45:24 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:45:25 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:45:25 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:45:25 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:45:25 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:45:25 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:45:25 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:45:25 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:45:25 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:45:25 [INFO ] main (FundOverviewEntity.java:363) - value:6.7648752E7  other.value:6.76487546074E7 diff:2.6074000000953674
+2014-01-21 12:45:25 [INFO ] main (FundOverviewEntity.java:365) - value mismatch
+2014-01-21 12:45:25 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:45:25 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.7648752E7, gross=5.531642, net=-3.5647226E-5, pnlDtd=-5.899261E-6, pnlMtd=-4.226483E-6, pnlYtd=-4.226483E-6, beta=0.19537273, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.9843392E7, grossNotional=3.7479563, netNotional=-2.415273E-5, pnlDtdNotional=-3.9970437E-6, pnlMtdNotional=-3.9970596E-6, pnlYtdNotional=-3.9970596E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:45:25 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Academy, fundId=PONZETA00, date=1388548800000, posId=9832, complianceAlert=false, numPositions=1690, value=6.76487546074E7, gross=5.5316417400599995, net=-3.5647226778E-5, pnlDtd=-5.89926079259E-6, pnlMtd=-4.226482676819195E-6, pnlYtd=-4.226482676839005E-6, beta=0.195372725973, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=9.984339087E7, grossNotional=3.74795638839, netNotional=-2.41527303482E-5, pnlDtdNotional=-3.99704378409E-6, pnlMtdNotional=-3.997059760516525E-6, pnlYtdNotional=-3.997059760507682E-6, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:46:16 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:46:17 [INFO ] main (Utils.java:43) - A value:1.0E8
+2014-01-21 12:46:17 [INFO ] main (Utils.java:44) - B value:1.0E8
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:363) - value:1.0E8  other.value:1.0E8 diff:0.0
+2014-01-21 12:46:17 [INFO ] main (FundOverviewEntity.java:365) - value mismatch
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:63) - found an mismatch
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:64) - mongo item:FundOverviewEntity [fundName=Cello, fundId=ISONSF, date=1388548800000, posId=9838, complianceAlert=false, numPositions=0, value=1.0E8, gross=0.0, net=0.0, pnlDtd=0.0, pnlMtd=0.0, pnlYtd=0.0, beta=0.0, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=1.0E8, grossNotional=0.0, netNotional=0.0, pnlDtdNotional=0.0, pnlMtdNotional=0.0, pnlYtdNotional=0.0, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null, isAggregated=null]
+2014-01-21 12:46:17 [INFO ] main (DiffKernel.java:65) - mysql item:FundOverviewEntity [fundName=Cello, fundId=ISONSF, date=1388548800000, posId=9838, complianceAlert=false, numPositions=0, value=1.0E8, gross=0.0, net=0.0, pnlDtd=0.0, pnlMtd=0.0, pnlYtd=0.0, beta=0.0, dividend=0.0, bucket=Total, type=manager, riskStd=null, valueNotional=1.0E8, grossNotional=0.0, netNotional=0.0, pnlDtdNotional=0.0, pnlMtdNotional=0.0, pnlYtdNotional=0.0, ivar95Hist=null, ivar95HistNotional=null, etl1D95Hist=null, etl1D95HistNotional=null, ivar99Hist=null, ivar99HistNotional=null, etl1D99Hist=null, etl1D99HistNotional=null]
+2014-01-21 12:47:55 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:47:55 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:47:55 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:47:55 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:47:55 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:47:55 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:47:55 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:47:55 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:47:55 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:6.7648752E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:6.76487546074E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:6.840392E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:6.84039166367E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:3.9551916E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:3.9551914945E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:2.1659694E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:2.16596931771E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:-2351806.8
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:-2351806.69
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:8333121.0
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:8333120.85999
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:7.2584648E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:7.25846472868E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:7.1478136E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:7.1478137836E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:1.3136668E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:1.31366676645E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:1.09616656E8
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:1.09616655215E8
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:4.9023368E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:4.90233688266E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:1.2015338E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:1.20153382763E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:1.22161568E8
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:1.22161565369E8
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:1.35783776E8
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:1.35783781121E8
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:7.519476E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:7.51947597679E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:3.7441216E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:3.7441216895E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:1.04177768E8
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:1.04177765867E8
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:1.01533224E8
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:1.01533220526E8
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:2905755.2
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:2905755.21
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:4.9502008E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:4.95020062027E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:2.3975226E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:2.39752251492E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:9.8060944E7
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:9.80609453926E7
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:1.01852072E8
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:1.01852072853E8
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:47:55 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:47:55 [INFO ] main (Utils.java:43) - A value:1.2886896E8
+2014-01-21 12:47:55 [INFO ] main (Utils.java:44) - B value:1.28868961005E8
+2014-01-21 12:48:47 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:48:47 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:48:47 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:48:47 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:48:47 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:48:47 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:48:47 [INFO ] main (DiffKernel.java:79) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:48:47 [INFO ] main (DiffKernel.java:82) - readfile:....
+2014-01-21 12:48:47 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:48:47 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:80) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:83) - readfile:....
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:80) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:83) - readfile:....
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:0
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:1
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:2
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:3
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:4
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:5
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:6
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:7
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:8
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:9
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:10
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:11
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:12
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:13
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:14
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:15
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:16
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:17
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:18
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:19
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:20
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:21
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:22
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:23
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:49:58 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:49:58 [INFO ] main (DiffKernel.java:68) - count:24
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:46) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:47) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:48) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:80) - file trace:/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:83) - readfile:....
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:52) - mysql result size:25
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:80) - file trace:/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:83) - readfile:....
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:55) - mongoResult result size:25
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:0
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:1
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:2
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:3
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:4
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:5
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:6
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:7
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:8
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:9
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:10
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:11
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:12
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:13
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:14
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:15
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:16
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:17
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:18
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:19
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:20
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:21
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:22
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:23
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:51:38 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:68) - count:24
+2014-01-21 12:51:38 [INFO ] main (DiffKernel.java:70) - totally match
+2014-01-21 12:55:41 [INFO ] main (DiffKernel.java:52) - class mysql:com.operasolutions.mysql.FundOverviewEntity
+2014-01-21 12:55:41 [INFO ] main (DiffKernel.java:53) - class mongo:com.operasolutions.mongo.FundOverviewEntity
+2014-01-21 12:55:41 [INFO ] main (DiffKernel.java:54) - class test:com.operasolutions.test.AcuityLevel
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:86) - file trace:C:/Yingming Fang/project/Light House/mysql-mongo-diff/src/main/java/com/operasolutions/validation/mysql-fundoverview.json
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:90) - readfile:....
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:58) - mysql result size:25
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:86) - file trace:C:/Yingming Fang/project/Light House/mysql-mongo-diff/src/main/java/com/operasolutions/validation/mongo-fundoverview.json
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:90) - readfile:....
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:61) - mongoResult result size:25
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:0
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:1
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:2
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:3
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:4
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:5
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:6
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:7
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:8
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:9
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:10
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:11
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:12
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:13
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:14
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:15
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:16
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:17
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:18
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:19
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:20
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:21
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:22
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:23
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:85) - call equal method
+2014-01-21 12:55:42 [INFO ] main (FundOverviewEntity.java:91) - ---------------
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:74) - count:24
+2014-01-21 12:55:42 [INFO ] main (DiffKernel.java:76) - totally match

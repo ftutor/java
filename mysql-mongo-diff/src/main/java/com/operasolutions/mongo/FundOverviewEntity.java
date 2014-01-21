@@ -1,10 +1,12 @@
 package com.operasolutions.mongo;
 
+import org.apache.log4j.Logger;
+
 import com.google.common.collect.ComparisonChain;
 import com.operasolutions.Utils;
 
 public class FundOverviewEntity implements Comparable<FundOverviewEntity> {
-
+	private static Logger logger = Logger.getLogger(FundOverviewEntity.class);
 	private String fundName;
 	private String fundId;
 	private Long date;
@@ -80,170 +82,298 @@ public class FundOverviewEntity implements Comparable<FundOverviewEntity> {
 
 	@Override
 	public boolean equals(Object obj) {
+		logger.info("call equal method");
 		if (this == obj)
 			return true;
 		if (obj == null)
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
 		com.operasolutions.mysql.FundOverviewEntity other = (com.operasolutions.mysql.FundOverviewEntity) obj;
+		logger.info("---------------");
 		if (beta == null) {
-			if (other.getBeta() != null)
+			if (other.getBeta() != null) {
+				logger.info("beta mismatch");
 				return false;
-		} else if (Math.abs(beta - other.getBeta()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(beta - other.getBeta()) > Utils.doublePrecise) {
+			logger.info("beta mismatch");
 			return false;
+		}
+
 		if (bucket == null) {
-			if (other.getBucket() != null)
+			if (other.getBucket() != null) {
+				logger.info("bucket mismatch");
 				return false;
-		} else if (!bucket.equals(other.getBucket()))
+			}
+		} else if (!bucket.equals(other.getBucket())) {
+			logger.info("bucket mismatch");
 			return false;
+		}
 		if (complianceAlert == null) {
-			if (other.getComplianceAlert() != null)
+			if (other.getComplianceAlert() != null) {
+				logger.info("getComplianceAlert mismatch");
 				return false;
+			}
 		} else if (!complianceAlert.equals(Boolean.valueOf(other
-				.getComplianceAlert())))
+				.getComplianceAlert()))) {
+			logger.info("getComplianceAlert mismatch");
 			return false;
+		}
 		if (date == null) {
-			if (other.getDate() != null)
+			if (other.getDate() != null) {
+				logger.info("date mismatch");
 				return false;
-		} else if (!date.equals(other.getDate()))
+			}
+		} else if (!date.equals(other.getDate())) {
+			logger.info("date mismatch");
 			return false;
+		}
 		if (dividend == null) {
-			if (other.getDividend() != null)
+			if (other.getDividend() != null) {
+				logger.info("dividend mismatch");
 				return false;
-		} else if (Math.abs(dividend - other.dividend) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(dividend - other.dividend) > Utils.doublePrecise) {
+			logger.info("dividend mismatch");
 			return false;
+		}
 		if (etl1D95Hist == null) {
-			if (other.etl1D95Hist != null)
+			if (other.etl1D95Hist != null) {
+				logger.info("etl1D95Hist mismatch");
 				return false;
-		} else if (Math.abs(etl1D95Hist - other.etl1D95Hist) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(etl1D95Hist - other.etl1D95Hist) > Utils.doublePrecise) {
+			logger.info("etl1D95Hist mismatch");
 			return false;
+		}
 		if (etl1D95HistNotional == null) {
-			if (other.etl1D95HistNotional != null)
+			if (other.etl1D95HistNotional != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(etl1D95HistNotional - other.etl1D95HistNotional) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(etl1D95HistNotional - other.etl1D95HistNotional) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (etl1D99Hist == null) {
-			if (other.etl1D99Hist != null)
+			if (other.etl1D99Hist != null) {
+				logger.info("etl1D99Hist mismatch");
 				return false;
-		} else if (Math.abs(etl1D99Hist - other.etl1D99Hist) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(etl1D99Hist - other.etl1D99Hist) > Utils.doublePrecise) {
+			logger.info("etl1D99Hist mismatch");
 			return false;
+		}
 		if (etl1D99HistNotional == null) {
-			if (other.etl1D99HistNotional != null)
+			if (other.etl1D99HistNotional != null) {
+				logger.info("etl1D99Hist mismatch");
 				return false;
-		} else if (Math.abs(etl1D99HistNotional - other.etl1D99HistNotional) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(etl1D99HistNotional - other.etl1D99HistNotional) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (fundId == null) {
-			if (other.fundId != null)
+			if (other.fundId != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (!fundId.equals(other.fundId))
+			}
+		} else if (!fundId.equals(other.fundId)) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (fundName == null) {
-			if (other.fundName != null)
+			if (other.fundName != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (!fundName.equals(other.fundName))
+			}
+		} else if (!fundName.equals(other.fundName)) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (gross == null) {
-			if (other.gross != null)
+			if (other.gross != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(beta - other.gross) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(gross - other.gross) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (grossNotional == null) {
-			if (other.grossNotional != null)
+			if (other.grossNotional != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(grossNotional - other.grossNotional) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(grossNotional - other.grossNotional) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 
 		if (ivar95Hist == null) {
-			if (other.ivar95Hist != null)
+			if (other.ivar95Hist != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (!ivar95Hist.equals(other.ivar95Hist))
+			}
+		} else if (!ivar95Hist.equals(other.ivar95Hist)) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (ivar95HistNotional == null) {
-			if (other.ivar95HistNotional != null)
+			if (other.ivar95HistNotional != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(beta - other.getBeta()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(beta - other.getBeta()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (ivar99Hist == null) {
 			if (other.getIvar99Hist() != null)
 				return false;
-		} else if (Math.abs(ivar99Hist - other.getIvar99Hist()) > Utils.doublePrecise)
+		} else if (Math.abs(ivar99Hist - other.getIvar99Hist()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (ivar99HistNotional == null) {
-			if (other.getIvar99HistNotional() != null)
+			if (other.getIvar99HistNotional() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(ivar99HistNotional - other.getIvar99HistNotional()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(ivar99HistNotional - other.getIvar99HistNotional()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (net == null) {
-			if (other.getNet() != null)
+			if (other.getNet() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(net - other.getNet()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(net - other.getNet()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (netNotional == null) {
-			if (other.getNetNotional() != null)
+			if (other.getNetNotional() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(netNotional - other.getNetNotional()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(netNotional - other.getNetNotional()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (numPositions == null) {
-			if (other.getNumPositions() != null)
+			if (other.getNumPositions() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (numPositions != other.getNumPositions().intValue())
+			}
+		} else if (numPositions != other.getNumPositions().intValue()) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (pnlDtd == null) {
-			if (other.getPnlDtd() != null)
+			if (other.getPnlDtd() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(pnlDtd - other.getPnlDtd()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(pnlDtd - other.getPnlDtd()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (pnlDtdNotional == null) {
-			if (other.getPnlDtdNotional() != null)
+			if (other.getPnlDtdNotional() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(pnlDtdNotional - other.getPnlDtdNotional()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(pnlDtdNotional - other.getPnlDtdNotional()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (pnlMtd == null) {
-			if (other.getPnlMtd() != null)
+			if (other.getPnlMtd() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(pnlMtd - other.getPnlMtd()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(pnlMtd - other.getPnlMtd()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (pnlMtdNotional == null) {
-			if (other.getPnlMtdNotional() != null)
+			if (other.getPnlMtdNotional() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(pnlMtdNotional - other.getPnlMtdNotional()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(pnlMtdNotional - other.getPnlMtdNotional()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (pnlYtd == null) {
-			if (other.getPnlYtd() != null)
+			if (other.getPnlYtd() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(pnlYtd - other.getPnlYtd()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(pnlYtd - other.getPnlYtd()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (pnlYtdNotional == null) {
-			if (other.getPnlYtdNotional() != null)
+			if (other.getPnlYtdNotional() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(pnlYtdNotional - other.getPnlYtdNotional()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(pnlYtdNotional - other.getPnlYtdNotional()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
 		if (posId == null) {
-			if (other.getPosId() != null)
+			if (other.getPosId() != null) {
+				logger.info("posId mismatch");
 				return false;
-		} else if (posId != other.posId)
+			}
+		} else if (posId != other.posId.intValue()) {
+			logger.info("posId:" + posId + "  ,other.posId:" + other.posId);
+			logger.info("posId mismatch");
 			return false;
+		}
 		if (riskStd == null) {
-			if (other.getRiskStd() != null)
+			if (other.getRiskStd() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (Math.abs(riskStd - other.getRiskStd()) > Utils.doublePrecise)
+			}
+		} else if (Math.abs(riskStd - other.getRiskStd()) > Utils.doublePrecise) {
+			logger.info("etl1D95HistNotional mismatch");
 			return false;
+		}
+
 		if (type == null) {
-			if (other.getType() != null)
+			if (other.getType() != null) {
+				logger.info("type mismatch");
 				return false;
-		} else if (!type.equals(other.getType()))
+			}
+		} else if (!type.equals(other.getType())) {
+			logger.info("type mismatch");
 			return false;
+		}
 		if (value == null) {
-			if (other.getValue() != null)
+			if (other.getValue() != null) {
+				logger.info("etl1D95HistNotional mismatch");
 				return false;
-		} else if (!value.equals(other.getValue()))
+			}
+		} else if (Math.abs(value - other.value) > Utils.doublePrecise
+				&& Utils.comp(value, other.value)) {
+			logger.info("value:" + value + "  other.value:" + other.value
+					+ " diff:" + (Math.abs(value - other.value)));
+			logger.info("value mismatch");
 			return false;
+		}
 		if (valueNotional == null) {
-			if (other.getValueNotional() != null)
+			if (other.getValueNotional() != null) {
+				logger.info("valueNotional mismatch");
 				return false;
-		} else if (Math.abs(valueNotional - other.getValueNotional()) > Utils.doublePrecise)
-			return false;
+			} else if (Math.abs(valueNotional - other.getValueNotional()) > Utils.doublePrecise) {
+				logger.info("valueNotional mismatch");
+				return false;
+			}
+		}
 		return true;
 	}
 
@@ -373,6 +503,28 @@ public class FundOverviewEntity implements Comparable<FundOverviewEntity> {
 
 	public Integer getIsAggregated() {
 		return isAggregated;
+	}
+
+	@Override
+	public String toString() {
+		return "FundOverviewEntity [fundName=" + fundName + ", fundId="
+				+ fundId + ", date=" + date + ", posId=" + posId
+				+ ", complianceAlert=" + complianceAlert + ", numPositions="
+				+ numPositions + ", value=" + value + ", gross=" + gross
+				+ ", net=" + net + ", pnlDtd=" + pnlDtd + ", pnlMtd=" + pnlMtd
+				+ ", pnlYtd=" + pnlYtd + ", beta=" + beta + ", dividend="
+				+ dividend + ", bucket=" + bucket + ", type=" + type
+				+ ", riskStd=" + riskStd + ", valueNotional=" + valueNotional
+				+ ", grossNotional=" + grossNotional + ", netNotional="
+				+ netNotional + ", pnlDtdNotional=" + pnlDtdNotional
+				+ ", pnlMtdNotional=" + pnlMtdNotional + ", pnlYtdNotional="
+				+ pnlYtdNotional + ", ivar95Hist=" + ivar95Hist
+				+ ", ivar95HistNotional=" + ivar95HistNotional
+				+ ", etl1D95Hist=" + etl1D95Hist + ", etl1D95HistNotional="
+				+ etl1D95HistNotional + ", ivar99Hist=" + ivar99Hist
+				+ ", ivar99HistNotional=" + ivar99HistNotional
+				+ ", etl1D99Hist=" + etl1D99Hist + ", etl1D99HistNotional="
+				+ etl1D99HistNotional + ", isAggregated=" + isAggregated + "]";
 	}
 
 }

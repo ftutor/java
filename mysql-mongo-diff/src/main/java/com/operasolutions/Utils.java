@@ -6,10 +6,15 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-public final class Utils {
+import org.apache.log4j.Logger;
 
-	public static Double doublePrecise = 0.000001d;
-	public static Float floatPrecise = 0.000001f;
+import com.operasolutions.mongo.FundOverviewEntity;
+
+public final class Utils {
+	private static Logger logger = Logger.getLogger(FundOverviewEntity.class);
+	private static int bitNum = 6;
+	public static Double doublePrecise = 0.00001d;
+	public static Float floatPrecise = 0.00001f;
 	private final static SimpleDateFormat simple = new SimpleDateFormat(
 			"yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
 	static {
@@ -29,6 +34,26 @@ public final class Utils {
 			throw new RuntimeException(
 					"exception is happened during string to timestamp");
 		}
+	}
+
+	public static boolean comp(Object objA, Object objB) {
+
+		String A = objA.toString();
+		String B = objB.toString();
+		// logger.info("A value:" + A);
+		// logger.info("B value:" + B);
+		if (A.length() >= bitNum && B.length() >= bitNum) {
+
+			for (int i = 0; i < bitNum; i++) {
+
+				if (A.charAt(i) != B.charAt(i)) {
+					return false;
+				}
+			}
+		}
+
+		return false;
+
 	}
 
 }

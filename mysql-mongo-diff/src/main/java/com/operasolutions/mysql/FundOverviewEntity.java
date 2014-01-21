@@ -204,4 +204,26 @@ public class FundOverviewEntity implements Comparable<FundOverviewEntity> {
 		return etl1D99HistNotional;
 	}
 
+	@Override
+	public String toString() {
+		return "FundOverviewEntity [fundName=" + fundName + ", fundId="
+				+ fundId + ", date=" + date + ", posId=" + posId
+				+ ", complianceAlert=" + complianceAlert + ", numPositions="
+				+ numPositions + ", value=" + value + ", gross=" + gross
+				+ ", net=" + net + ", pnlDtd=" + pnlDtd + ", pnlMtd=" + pnlMtd
+				+ ", pnlYtd=" + pnlYtd + ", beta=" + beta + ", dividend="
+				+ dividend + ", bucket=" + bucket + ", type=" + type
+				+ ", riskStd=" + riskStd + ", valueNotional=" + valueNotional
+				+ ", grossNotional=" + grossNotional + ", netNotional="
+				+ netNotional + ", pnlDtdNotional=" + pnlDtdNotional
+				+ ", pnlMtdNotional=" + pnlMtdNotional + ", pnlYtdNotional="
+				+ pnlYtdNotional + ", ivar95Hist=" + ivar95Hist
+				+ ", ivar95HistNotional=" + ivar95HistNotional
+				+ ", etl1D95Hist=" + etl1D95Hist + ", etl1D95HistNotional="
+				+ etl1D95HistNotional + ", ivar99Hist=" + ivar99Hist
+				+ ", ivar99HistNotional=" + ivar99HistNotional
+				+ ", etl1D99Hist=" + etl1D99Hist + ", etl1D99HistNotional="
+				+ etl1D99HistNotional + "]";
+	}
+
 }
