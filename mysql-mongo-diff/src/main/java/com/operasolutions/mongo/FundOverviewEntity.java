@@ -46,7 +46,6 @@ public class FundOverviewEntity implements Comparable<FundOverviewEntity> {
 
 	private Integer isAggregated;
 
-	@Override
 	public int compareTo(FundOverviewEntity o) {
 		return ComparisonChain.start().compare(this.fundName, o.fundName)
 				.compare(this.fundId, o.fundId).compare(this.date, o.date)

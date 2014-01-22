@@ -36,13 +36,15 @@ public class DiffKernel {
 			IllegalArgumentException, InvocationTargetException {
 		// TODO Auto-generated method stub
 		DiffKernel instance = new DiffKernel();
-		String className = "FundOverviewEntity";
+		String className = "AverageCorrelationVolatilityEntity";
 		// String mysqlJson =
 		// "/com/operasolutions/validation/mysql-fundoverview.json";
 		// String mongoJson =
 		// "/com/operasolutions/validation/mongo-fundoverview.json";
-		String mysqlJson = "C:/Yingming Fang/project/Light House/mysql-mongo-diff/src/main/java/com/operasolutions/validation/mysql-fundoverview.json";
-		String mongoJson = "C:/Yingming Fang/project/Light House/mysql-mongo-diff/src/main/java/com/operasolutions/validation/mongo-fundoverview.json";
+		String dir = "C:/Yingming Fang/project/Github/Java/java/mysql-mongo-diff/src/main/resources/json/";
+
+		String mysqlJson = dir + "Historical_Correlations_22Days_mysql.json";
+		String mongoJson = dir + "Historical_Correlations_22Days_mongo.json";
 
 		String testJson = "/com/operasolutions/validation/AcuityLevel.json";
 
@@ -56,6 +58,7 @@ public class DiffKernel {
 		// logger.info("test result size:" + testResult.size());
 		List mysqlResult = instance.loadJsonFile(mysqlJson, mysql);
 		logger.info("mysql result size:" + mysqlResult.size());
+		// logger.info("mysql result size:" + mysqlResult.toString());
 
 		List mongoResult = instance.loadJsonFile(mongoJson, mongo);
 		logger.info("mongoResult result size:" + mongoResult.size());
@@ -63,6 +66,7 @@ public class DiffKernel {
 		Collections.sort(mongoResult);
 
 		Method m = mongo.getDeclaredMethod("equals", Object.class);
+		m.setAccessible(true);
 		int size = mongoResult.size();
 		for (int i = 0; i < size; i++) {
 			if (!(Boolean) m.invoke(mongoResult.get(i), mysqlResult.get(i))) {
